@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8">
+    <title>Intoducir Produtos</title>
+     <link rel="stylesheet" href="../css/formulario02.css">
+     <script src="../js/myscript.js"></script>
+  </head>
+  <body>
+
+  <header>
+      <div class="textos">
+                <h1 class="nombre">La Tiendita de la Esquina <br><span>MiniSuper</span></h1>
+                <h3>Los Mejores Precios al Alcance</h3>
+            </div>
+         <nav class="menu">
+                  <ul>
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="./Formulario01.html">INTRODUCIR PRODUCTO</a></li>
+                    <li><a href="./Formulario02.html">PEDIDOS</a></li>
+                    <li><a href="https://elitemaat.github.io/Elitemaat-PILARESAutonomiaEconomicaParaLaMujeres/">Autonomía Económica</a></li>
+                </ul>
+            </nav>     
+    </header>
+   <div class="main">
+   
+   <section class="menu">
+            <div class="contenedor">
+                <h3 class="titulo" id="articulo">Mis Pedidos</h3>
+                <div class="contenedor-menu1">
+                    <div class="contenedor-menu2">
+                        <h1 class="total" id="idTotal">Total:    $0</h1>
+                        <input type="button" value="PAGAR" class="botonPagar" onclick="pagar()">
+                        <h1 class="pagar" id="idPagar"></h1>
+                        <article>
+                            <p class="categoria">ABARROTES</p>
+                            <div class="articulo">
+                                <p class="nombre">Aceite comestible</p>
+                                <p class="precio">$45</lavel>
+                                <p class="descripcion">Aceite de cosina Marca 123</p>
+                                <input type="button" value="Agregar" class="boton" onclick="agregar(0)">
+                                <p class="cantidad" id="id0">Cantidad: 0</p> 
+                            </div>
+                            <div class="articulo">
+                                <p class="nombre">Azúcar</p>
+                                <p class="precio">$35</p>
+                                <p class="descripcion">Bolsa de Azucar de 500 gramos</p>
+                                 <input type="button" value="Agregar" class="boton" onclick="agregar(1)">
+                                 <p class="cantidad" id="id1">Cantidad: 0</p> 
+                            </div>
+                            <div class="articulo">
+                                <p class="nombre">Cafe</p>
+                                <p class="precio">$50</p>
+                                <p class="descripcion">frasco de 350 gramos </p>
+                                 <input type="button" value="Agregar" class="boton" onclick="agregar(2)">
+                                <p class="cantidad" id="id2">Cantidad: 0</p> 
+                            </div>
+                            <div class="articulo">
+                                <p class="nombre">Huevo</p>
+                                <p class="precio">$32</p>
+                                <p class="descripcion">Docena de Huvos blancos</p>
+                                 <input type="button" value="Agregar" class="boton" onclick="agregar(3)">
+                                <p class="cantidad" id="id3">Cantidad: 0</p> 
+                            </div>
+                        </article>
+                        <article>
+                            <p class="categoria">ENLATADOS</p>
+                            <div class="articulo">
+                                <p class="nombre">Frijoles</p>
+                                <p class="precio">$13</p>
+                                <p class="descripcion">Lata de Frijoles Negros</p>
+                                 <input type="button" value="Agregar" class="boton" onclick="agregar(4)">
+                                <p class="cantidad" id="id4">Cantidad: 0</p> 
+                            </div>
+                            <div class="articulo">
+                                <p class="nombre">Granos de Elote</p>
+                                <p class="precio">$12</p>
+                                <p class="descripcion">Lata de Granos de Elote</p>
+                                 <input type="button" value="Agregar" class="boton" onclick="agregar(5)">
+                                <p class="cantidad" id="id5">Cantidad: 0</p> 
+                            </div>
+                            <div class="articulo">
+                                <p class="nombre">Atún</p>
+                                <p class="precio">$10</p>
+                                <p class="descripcion">Lata de Atún en agua </p>
+                                 <input type="button" value="Agregar" class="boton" onclick="agregar(6)">
+                                <p class="cantidad" id="id6">Cantidad: 0</p> 
+                            </div>
+                            <div class="articulo">
+                                <p class="nombre">Chanpiñones</p>
+                                <p class="precio">$23</p>
+                                <p class="descripcion">Lata de Chanpiñones</p>
+                                 <input type="button" value="Agregar" class="boton" onclick="agregar(7)">
+                                <p class="cantidad" id="id7">Cantidad: 0</p> 
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+     </div>
+  </body>
+</html>

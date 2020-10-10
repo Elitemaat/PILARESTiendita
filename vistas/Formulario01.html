@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8">
+    <title>Intoducir Produtos</title>
+     <link rel="stylesheet" href="../css/formulario01.css">
+     <script src="../js/myscript.js"></script>
+  </head>
+  <body>
+
+  <header>
+      <div class="textos">
+                <h1 class="nombre">La Tiendita de la Esquina <br><span>MiniSuper</span></h1>
+                <h3>Los Mejores Precios al Alcance</h3>
+            </div>
+         <nav class="menu">
+                  <ul>
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="./Formulario01.html">INTRODUCIR PRODUCTO</a></li>
+                    <li><a href="./Formulario02.html">PEDIDOS</a></li>
+                    <li><a href="https://elitemaat.github.io/Elitemaat-PILARESAutonomiaEconomicaParaLaMujeres/">Autonomía Económica</a></li>
+                </ul>
+            </nav>     
+    </header>
+
+<div class="contenedor">
+   <div class="contain">
+
+  <div class="wrapper">
+    <div class="contacts">
+      <h3>La Tiendita de la Esquina</h3>
+
+      <ul>
+        <li>MiniSuper</li>
+        <li>Los Mejores Precios al Alcance</li>     
+      </ul>
+    </div>
+
+    <div class="form">
+      <h3>Intoducir Produtos</h3>
+      <form action="">
+        <p>
+          <label>Producto</label>
+          <input id="idP" type="text">
+        </p>
+        <p>
+          <label>Existencias</label>
+          <input id="idC" type="Number">
+        </p>
+         <p>
+          <label>Precio</label>
+          <input id="idPr" type="text">
+        </p>
+        <p class="full-width">
+          <label>Descripcion de Producto</label>
+          <textarea id="idD" cols="30" rows="7"></textarea>
+        </p>
+        <p class="full-width">
+         <button type="button" onclick="obtenerDatos()">Agregar Producto</button>
+        </p>
+      </form>
+    </div>
+  </div>
+   <div>
+    <ul class="ListaProductos" id="lista">
+       
+    </ul>
+    </div>
+</div>
+  </body>
+</html>
